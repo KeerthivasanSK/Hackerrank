@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+#define MAX_LEN 128
+int main() 
+{
+char ch;
+char s[MAX_LEN];
+char sen[MAX_LEN];
+
+scanf("%c",&ch);
+scanf("%s\n",&sen);
+scanf(" %[^\n]%*c",&s);
+
+printf("%c\n",ch);
+printf("%s\n",sen);
+printf("%s\n",s);
+return 0;
+}
